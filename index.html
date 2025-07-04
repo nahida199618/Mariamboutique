@@ -2,25 +2,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Mariam Boutique</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariam Boutique</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Mariam Boutique</h1>
-        <p>Ladies & Kids Garments and Stitching Services</p>
-        <nav>
-            <a href="order.html">Order Now</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome!</h2>
-            <p>We offer custom stitching for ladies and kids garments with elegant design and fitting.</p>
-            <p>Address: E/50 West Chowbaga, Gulshan Colony, Kolkata 700100</p>
-            <p>Contact: 6291969231 | mariamboutique199618@gmail.com</p>
-        </section>
-    </main>
+  <header>
+    <div class="container">
+      <h1>Mariam Boutique</h1>
+      <p>Ladies & Kids Garments • Stitching Services</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We specialize in elegant garments for ladies and kids with custom stitching solutions. Located at E/50 West Chowbaga, Gulshan Colony, Kolkata 700100.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="images">
+        <img src="https://via.placeholder.com/300x400?text=Design+1" alt="Design 1" />
+        <img src="https://via.placeholder.com/300x400?text=Design+2" alt="Design 2" />
+        <img src="https://via.placeholder.com/300x400?text=Design+3" alt="Design 3" />
+      </div>
+    </div>
+  </section>
+
+  <section class="order-form">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="address" placeholder="Full Address" required />
+        <textarea name="measurements" placeholder="Mention bust, waist, length, etc." required></textarea>
+        <button type="submit">Submit Order</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>📞 6291969231 | 📧 mariamboutique199618@gmail.com</p>
+      <a href="https://wa.me/916291969231" class="whatsapp" target="_blank">Order via WhatsApp</a>
+    </div>
+  </footer>
 </body>
 </html>
